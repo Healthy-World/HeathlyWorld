@@ -1,0 +1,19 @@
+{>"layouts/common"/}
+
+{<styles2}
+{/styles2}
+
+{<body}
+<div class="main-container layout">
+<header>
+    {>"shared/_topbar"/}
+    <div class='navigation'>{+navigation}{/navigation}</div>
+</header>
+<section>
+    {+content}{/content}
+</section>
+<footer>
+    <span class="copyright">&copy; Copyright 2013 Healthy World</span>
+</footer>
+</div>
+{/body}

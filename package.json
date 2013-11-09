@@ -1,0 +1,27 @@
+{
+    "name": "HealthyWorld",
+    "description": "Healthy World hacking health project team #25",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "nconf": "*",
+        "express": "3.x",
+        "dustjs-linkedin": "*",
+        "dustjs-helpers": "*",
+        "consolidate": "*",
+        "watch": "*",
+        "sprintf-js": "*",
+        "request": "*",
+        "node-rest-client": "*",
+        "winston": "*",
+        "i18n": "*",
+        "express-domain-middleware": "*",
+        "opencare-duster": "git+https://vadim-zverugo@bitbucket.org/vadim-zverugo/opencare-duster.git"
+    },
+    "engines": {
+        "node": "0.8.x"
+    }
+}

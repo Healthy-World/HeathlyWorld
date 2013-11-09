@@ -1,0 +1,120 @@
+.team-view {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.team-view .team > div.person {
+	float: left;
+	position: relative;
+}
+
+.team-view .team > div.person > img {
+	width: 300px;
+	height: 300px;
+}
+
+
+.team-view .team > div.person > .mask,
+.team-view .team > div.person > .info {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.team-view .team > div.person > .info {
+	z-index: 10;
+	display: none;
+	padding: 15px;
+}
+
+.team-view .team > div.person > .mask {
+	background-color: black;
+	opacity: 0;
+	z-index: 9;
+	transition: opacity 300ms;
+   	-webkit-transition: opacity 300ms;
+}
+
+.team-view .team > div.person:hover > .mask {
+	opacity: 0.7;
+}
+
+.team-view .team > div.person:hover > .info {
+	display: block;
+	color: #fff;
+}
+
+.team-view .team > div.person > .info > h3 {
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+.team-view .team > div.person > .info > h4 {
+	text-align: center;
+	font-weight: 200;
+}
+
+.team-view .team > div.person > .info > p {
+	display: block;
+	font-size: 13px;
+}
+
+.team-view .team > .highlight
+{
+	clear:both;
+	background-color: #eee;
+	padding: 15px;
+	width: 100%;
+}
+
+.team-view .team > div.person > .info > ul 
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.team-view .team > div.person > .info > ul > li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.team-view .team > div.person > .info > ul > li > a {
+	background: #71767a no-repeat center center ;
+	display: block;
+	width: 16px;
+	height: 16px;
+	padding: 15px;
+	border-radius: 15px;
+	transition: background-color 300ms;
+   	-webkit-transition: background-color 300ms;
+}
+
+.team-view .team > div.person > .info > ul > li:hover > a {
+	background-color: #49b5b4;
+}
+
+.team-view .team > div.person > .info a.twitter  {
+	background-image: url("../imgs/twitter-21x21.png");
+}
+
+.team-view .team > div.person > .info a.facebook  {
+	background-image: url("../imgs/facebook-21x21.png");
+}
+
+.team-view .team > div.person > .info a.linkedin  {
+	background-image: url("../imgs/linkedin-21x21.png");
+}
+
+.team-view .team > div.person > .info a.blog  {
+	background-image: url("../imgs/website-21x21.png");
+}

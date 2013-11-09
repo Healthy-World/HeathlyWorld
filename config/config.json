@@ -1,0 +1,9 @@
+{
+	"domain": "localhost",
+	"port": 5558,
+    "assetsLibUrlBase": "http://localhost:5558",
+	"sessionTokenCookieName": "octc",
+	"sessionUserCookieName": "ocuc",
+	"googleMapsKey": "AIzaSyAkuZYlcXRSJh-LmNyDt1isJyvhnuEYeeI",
+	"googleAnalyticsID": "UA-13223965-2"
+}

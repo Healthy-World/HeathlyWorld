@@ -1,0 +1,5 @@
+*[data-placeholder]:not(:focus):not([data-placeholder-content]):before {
+    content: attr(data-placeholder);
+    margin-left: 2px;
+    color: #b3b3b3;
+}

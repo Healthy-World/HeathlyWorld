@@ -1,0 +1,41 @@
+body
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 200;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-weight:100;
+	font-size: 12px;
+	text-align: center;
+	background-color: #59666e;
+	color: white;
+	z-index: 999;
+}
+
+footer .copyright {
+	display: inline-block;
+	margin: 5px;
+}
+
+footer .icon
+{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	opacity: 0.4;
+	margin: 3px;
+}
+
+footer .icon:hover
+{
+	opacity: 1;
+}
