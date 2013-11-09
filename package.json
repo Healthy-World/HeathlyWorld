@@ -18,7 +18,8 @@
         "node-rest-client": "*",
         "winston": "*",
         "i18n": "*",
-        "express-domain-middleware": "*"
+        "express-domain-middleware": "*",
+	"opencare-duster": "https://bitbucket.org/vadim-zverugo/opencare-duster"
     },
     "engines": {
         "node": "0.8.x"
