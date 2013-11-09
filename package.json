@@ -16,7 +16,7 @@
         "sprintf-js": "*",
         "node-rest-client": "*",
         "i18n": "*",
-        "express-domain-middleware": "*",
+        "express-domain-middleware": "*"
     },
     "engines": {
         "node": "0.8.x"
