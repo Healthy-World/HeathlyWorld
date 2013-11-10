@@ -1,0 +1,13 @@
+<h1>Here are some doctors we recommend for you</h1>
+<div class="doctors-container">
+	<div class="doctor-info" data-ng-repeat="doctor in doctors">
+		<div class="doctor-left">
+			<img data-ng-src="{{ doctor.image }}"/>
+		</div>
+		<div class="doctor-main">
+			<h3>{{ doctor.name }}</h3>
+			<div>{{ doctor.phone }}</div>
+			<div>{{ doctor.address.street }} {{ doctor.address.city }}</div>
+		</div>
+	</div>
+</div>
