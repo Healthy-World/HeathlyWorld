@@ -38,9 +38,16 @@ h1 {
 	text-decoration: none;
 }
 .tile.selected {
-	border-color: #4b6784;
-	text-decoration: underline;
+	border-color: #17D6A1;
+	text-decoration: none;
 }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #17D6A1;
+border-color: #17D6A1;
+}
+
 .age .tile {
 	font-size: 50px;
 	padding-top: 55px;
