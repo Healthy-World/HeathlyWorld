@@ -183,7 +183,7 @@ var data = [{
             "city": "Vaughan",
             "prov": "ON",
             "postal": "L4J",
-            "gps" {
+            "gps": {
                 "lat": 43.7950938,
                 "long": -79.4338563
             }
