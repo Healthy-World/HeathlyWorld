@@ -12,7 +12,7 @@ h1 {
 }
 
 #App {
-	margin-top: 80px;
+	margin-top: 40px;
 	text-align: center;
 }
 
@@ -169,18 +169,29 @@ img.phone_call {
     width: 7%;
 }
 
+.doctor-profile {
+	text-align: left;
+}
 .doctor-profile img.photo {
+	-moz-box-shadow: 5px 5px 5px #CCC;
+	-webkit-box-shadow: 5px 5px 5px #CCC;
+	box-shadow: 5px 5px 5px #CCC;
     width: 200px;
     float: left;
 }
 
-.row {
+.reviews {
     margin-bottom: 10px;
-    text-align: left;
 }
 
-.span-right .attributes {
-    text-indent: 20px;
+.list-group-item {
+	border: none;
+	border-bottom: 1px solid #cbdbe6;
+	margin-bottom: 15px;
+}
+
+.attributes {
+    font-size: 12px;
 }
 
 img.map
@@ -188,12 +199,10 @@ img.map
 	width: 100%;
 }
 
-#footer
-{
+#footer {
 	padding-bottom: 20px;
-	padding-top: 20px;
-	position: absolute;
-<<<<<<< HEAD
+	padding-top: 100px;
+	text-align: center;
 }
 
 .services {
@@ -259,17 +268,13 @@ i.service-icon {
 	margin-bottom: 15px;
 }
 
-<<<<<<< HEAD
-.match-score
-{
+.match-score {
 	font-size: 25px;
 }
-=======
 a.feedback,
 a:hover.feedback,
 a:focus.feedback,
-a:active.feedback
-{
+a:active.feedback {
     text-decoration: none;
 }
 
@@ -289,9 +294,3 @@ a:active.feedback
     opacity: 0.6;
     text-decoration: none;
 }
-
-<<<<<<< HEAD
-=======
->>>>>>> 14271ece9a6b3213793c78fd2fc075a61614d726
->>>>>>> aa207e372d0dd16d2af61635a7a2ed95e0c8a1e6
->>>>>>> a820786f445381f9949640530d4a232f0399b315
