@@ -119,7 +119,7 @@ border-color: #17D6A1;
 	text-align: left;
 	width: 100%;
 }
-.doctor-info img {
+.doctor-info img.photo {
 	width: 100px;
 }
 .doctor-info h3 {
