@@ -35,10 +35,13 @@ module.controller('ResultsCtrl', ['$scope', '$http',
 			return true;
 		}
 
-		$http({ method: 'GET', url: '/api/doctors'})
-			.success(function(data){
+		$http({
+			method: 'GET',
+			url: '/api/doctors'
+		})
+			.success(function(data) {
 				$scope.doctors = data;
-			});	
+			});
 	}
 ]);
 
@@ -52,10 +55,13 @@ module.controller('LoadingCtrl', ['$scope', '$location', '$timeout',
 
 module.controller('ProfileCtrl', ['$scope', '$http', '$routeParams',
 	function($scope, $http, $routeParams) {
-		$http({ method: 'GET', url: '/api/doctors/' + $routeParams.id })
-			.success(function(data){
+		$http({
+			method: 'GET',
+			url: '/api/doctors/' + $routeParams.id
+		})
+			.success(function(data) {
 				$scope.doctor = data;
-			});	
+			});
 	}
 ]);
 

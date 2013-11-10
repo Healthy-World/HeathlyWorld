@@ -19,6 +19,8 @@
 			<img class="phone_call" data-ng-src="/img/phone_call.png"/>
 		</div>
 
+		<img src="http://maps.googleapis.com/maps/api/staticmap?center={{ doctor.coords.lat }},{{ doctor.coords.lng }}&zoom=15&size=500x300&sensor=false">
+
 		<div ng-if="doctor.reviews.length >
 			0">
 			<strong>Review</strong>

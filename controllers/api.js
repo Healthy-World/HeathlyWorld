@@ -2,6 +2,11 @@ var data = [{
     id: 2342,
     "name": "Dr. Bowen Chan",
     "gender": "M",
+    coords:
+    {
+        lat: 43.650284,
+         lng: -79.384301
+    },
     "image": "https://education.kennesaw.edu/edleadership/sites/education.kennesaw.edu.edleadership/files/chan.jpg",
     "availability": {
         "Monday": "8:30am - 5:30pm",
