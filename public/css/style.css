@@ -87,3 +87,8 @@ h1 {
     margin: 200px auto;
     padding: 20px;
 }
+
+#page-wrap .btn.search
+{
+	background-color: #75cc99;
+}
