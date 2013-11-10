@@ -1,41 +1,50 @@
-<div class="doctor-info">
-	<div class="doctor-left">
-		<img data-ng-src="{{ doctor.image }}" class='photo'/>
-	</div>
-	<div class="doctor-main">
-		<h3>
-			<a href="javascript:void(0);">{{ doctor.name }}</a>
-		</h3>
-		<div>{{ doctor.address.street }} {{ doctor.address.city }}</div>
+<div class="doctor-profile">
 
-		<div ng-if="isEmptyObj(doctor.availability)"> <strong>Currently unavailability</strong>
-		</div>
+  <div class="row">
+    <div class="doctor-left span4">
+      <img data-ng-src="{{ doctor.image }}" class='photo'/>
+    </div>
 
-		<div ng-if="!isEmptyObj(doctor.availability)"> <strong>Availability</strong>
-			:
-			<ul data-ng-repeat="avail in doctor.availability">
-				<li>{{avail}}</li>
-			</ul>
-			<img class="phone_call" data-ng-src="/img/phone_call.png"/>
-		</div>
 
-		<div ng-if="doctor.reviews.length >
-			0">
-			<strong>Review</strong>
-			:
-			<ul data-ng-repeat="revi in doctor.reviews">
-				<li>rating: {{revi.rating}}</li>
-				<li>comments: {{revi.comments}}</li>
-				<li>
-					Attributes:
-					<ul>
-						<li>Staff: {{revi.attributes.staff}}</li>
-						<li>Punctual: {{revi.attributes.punctual}}</li>
-						<li>Helpful: {{revi.attributes.helpful}}</li>
-						<li>Knowledge: {{revi.attributes.knowledge}}</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
+    <div class="doctor-right span8">
+      <h3>
+	<a href="javascript:void(0);">{{ doctor.name }}</a>
+      </h3>
+      <div>{{ doctor.address.street }} {{ doctor.address.city }}</div>
+      
+      <div ng-if="isEmptyObj(doctor.availability)"> <strong>Currently unavailability</strong></div>
+      
+      <div ng-if="!isEmptyObj(doctor.availability)"> <strong>Availability</strong>
+      :
+      <ul data-ng-repeat="avail in doctor.availability">
+      	<div>{{avail}}</div>
+      </div>
+      <img class="phone_call" data-ng-src="/img/phone_call.png"/>
+    </div>
+
+  </div>
+
+    <div ng-if="doctor.reviews.length > 0">
+      <strong>Review</strong>
+      :
+      <div data-ng-repeat="revi in doctor.reviews">
+      <div class="row">
+    	  <div class="span-left">
+    	    <div><strong>Rating:</strong> {{revi.rating}}</div>
+    	    <div><strong>Comments:</strong> {{revi.comments}}</div>
+    	  </div>
+
+    	  <div class="span-right">
+    	    <strong>Attributes:</strong>
+    	    <div class="attributes">
+    	      <div>Staff: {{revi.attributes.staff}}</div>
+    	      <div>Punctual: {{revi.attributes.punctual}}</div>
+    	      <div>Helpful: {{revi.attributes.helpful}}</div>
+    	      <div>Knowledge: {{revi.attributes.knowledge}}</div>
+    	    </div>
+    	  </div>
+    	</div>
+      </div>
+    </div>
+
+  </div>
