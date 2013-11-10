@@ -3,6 +3,7 @@ body {
 	background-image: url(/img/bg.jpg);
 	background-repeat: repeat;
 	background-position: top center;
+	padding-bottom: 30px;
 }
 
 h1 {
@@ -49,6 +50,15 @@ h1 {
 .btn-wide {
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+.icon-tiles > div > a > img
+{
+	width: 50%;
+}
+.icon-tiles > div > .tile
+{
+	padding-top: 25px;
 }
 
 #bg {
