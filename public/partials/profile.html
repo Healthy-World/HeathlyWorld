@@ -1,20 +1,18 @@
 <div class="doctor-profile panel panel-default">
   <div class='panel-body'>
     <div class="row">
-      <div class="doctor-left span4">
+      <div class='col-xs-6 col-md-3'>
         <img data-ng-src="{{ doctor.image }}" class='photo'/>
       </div>
-      <div class="doctor-right span8">
+      <div class='col-xs-6 col-md-9'>
         <h3>
           <a href="javascript:void(0);">{{ doctor.name }}</a>
         </h3>
         <div>{{ doctor.address.street }} {{ doctor.address.city }}</div>
-
         <div ng-if="isEmptyObj(doctor.availability)"> <strong>Currently unavailability</strong>
         </div>
 
         <div ng-if="!isEmptyObj(doctor.availability)"> <strong>Availability</strong>
-          :
           <ul data-ng-repeat="avail in doctor.availability">
             <div>{{avail}}</div>
           </div>
@@ -23,39 +21,44 @@
             &nbsp;Call {{doctor.phone}}
           </span>
         </div>
-
       </div>
+    </div>
+    <div class='row'>
+      <div class='col-xs-12'>
+        <div ng-if="doctor.reviews.length >
+          0" >
+          <h2>Review</h2>
+          <div class='list-group'>
 
-      <div ng-if="doctor.reviews.length >
-        0">
-        <strong>Review</strong>
-        :
-        <div data-ng-repeat="revi in doctor.reviews">
-          <div class="row">
-            <div class="span-left">
-              <div>
-                <strong>Rating:</strong>
-                {{revi.rating}}
-              </div>
-              <div>
-                <strong>Comments:</strong>
-                {{revi.comments}}
-              </div>
-            </div>
+            <div data-ng-repeat="revi in doctor.reviews" class='col-xs-12'>
+              <div class='list-group-item'>
+                <div class='row'>
+                  <div class='col-xs-6'>
+                    <strong>Rating:</strong>
+                    {{revi.rating}}<br/>
+                    <strong>Comments:</strong>
+                    {{revi.comments}}
+                  </div>
+                  <div class='col-xs-6'>
 
-            <div class="span-right">
-              <strong>Attributes:</strong>
-              <div class="attributes">
-                <div>Staff: {{revi.attributes.staff}}</div>
-                <div>Punctual: {{revi.attributes.punctual}}</div>
-                <div>Helpful: {{revi.attributes.helpful}}</div>
-                <div>Knowledge: {{revi.attributes.knowledge}}</div>
+                    <strong>Attributes:</strong>
+                    <div class="attributes">
+                      <div>Staff: {{revi.attributes.staff}}</div>
+                      <div>Punctual: {{revi.attributes.punctual}}</div>
+                      <div>Helpful: {{revi.attributes.helpful}}</div>
+                      <div>Knowledge: {{revi.attributes.knowledge}}</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <img class='map' src="http://maps.googleapis.com/maps/api/staticmap?center={{ doctor.coords.lat }},{{ doctor.coords.lng }}&zoom=15&size=500x300&sensor=false"></div>
+    </div>
+    <div class='row'>
+        <div class='col-xs-12'>
+          <img class='map' src="http://maps.googleapis.com/maps/api/staticmap?center={{ doctor.coords.lat }},{{ doctor.coords.lng }}&zoom=15&size=500x300&sensor=false" />
+        </div>
+      </div>
   </div>
-</div>

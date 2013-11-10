@@ -191,10 +191,11 @@ img.map
 #footer
 {
 	position: absolute;
+	text-align: center;
+	width: 100%;
 }
 
-.doctor-right {
-   float: left;
-   padding-left: 10px;
+.list-group-item
+{
+	margin-bottom: 15px;
 }
-
