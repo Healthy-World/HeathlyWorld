@@ -169,6 +169,20 @@ img.phone_call {
     width: 7%;
 }
 
+.doctor-profile img.photo {
+    width: 200px;
+    float: left;
+}
+
+.row {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.span-right .attributes {
+    text-indent: 20px;
+}
+
 img.map
 {
 	width: 100%;
@@ -178,3 +192,9 @@ img.map
 {
 	position: absolute;
 }
+
+.doctor-right {
+   float: left;
+   padding-left: 10px;
+}
+
