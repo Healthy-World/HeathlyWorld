@@ -42,10 +42,18 @@ h1 {
 	text-decoration: none;
 }
 
+h1 {
+	font-weight: 800;
+}
+
+.factors {
+	color: #2a6496; 
+}
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-color: #fff;
-background-color: #17D6A1;
-border-color: #17D6A1;
+	color: #fff;
+	background-color: #17D6A1;
+	border-color: #17D6A1;
 }
 
 .age .tile {
