@@ -168,3 +168,13 @@ h1 {
 img.phone_call {
     width: 7%;
 }
+
+img.map
+{
+	width: 100%;
+}
+
+#footer
+{
+	position: absolute;
+}

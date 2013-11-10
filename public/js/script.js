@@ -96,6 +96,9 @@ module.config(['$routeProvider',
 				controller: 'ProfileCtrl',
 				templateUrl: "/partials/profile.html"
 			})
+			.when("/about", {
+				templateUrl: "/partials/about.html"
+			})
 			.otherwise({
 				redirectTo: "/home"
 			});
