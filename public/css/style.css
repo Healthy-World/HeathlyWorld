@@ -193,3 +193,8 @@ img.map
 	position: absolute;
 }
 
+.doctor-right {
+   float: left;
+   padding-left: 10px;
+}
+
