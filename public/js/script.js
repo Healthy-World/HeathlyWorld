@@ -31,6 +31,9 @@ module.config(['$routeProvider', function($routeProvider) {
         .when("/gender", {
             templateUrl: "/partials/gender.html"
         })
+        .when("/home", {
+            templateUrl: "/partials/home.html"
+        })
         .when("/age", {
             templateUrl: "/partials/age.html"
         })

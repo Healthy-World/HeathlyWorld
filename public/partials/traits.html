@@ -1,12 +1,15 @@
 <h1>What 3 factors do you care about most?</h1>
-<div>
-	<a href="javascript:void(0);" data-ng-click="toggleSelected('experience')" class="tile" data-ng-class="{selected: traits.experience}">Experience</a>
-	<a href="javascript:void(0);" data-ng-click="toggleSelected('availability')" class="tile" data-ng-class="{selected: traits.availability}">Availability</a>
-	<a href="javascript:void(0);" data-ng-click="toggleSelected('location')" class="tile" data-ng-class="{selected: traits.location}">Location</a>
+<div class='icon-tiles'>
+	<div>
+		<a href="javascript:void(0);" data-ng-click="toggleSelected('experience')" class="tile" data-ng-class="{selected: traits.experience}"><img src='/img/experience_150.png' /><br/>Experience</a>
+		<a href="javascript:void(0);" data-ng-click="toggleSelected('availability')" class="tile" data-ng-class="{selected: traits.availability}"><img src='/img/calendar_150.png' /><br/>Availability</a>
+		<a href="javascript:void(0);" data-ng-click="toggleSelected('location')" class="tile" data-ng-class="{selected: traits.location}"><img src='/img/pin_150.png' /><br/>Location</a>
+	</div>
+	<div>
+		<a href="javascript:void(0);" data-ng-click="toggleSelected('attentiveness')" class="tile" data-ng-class="{selected: traits.attentiveness}"><img src='/img/care_150.png' /><br/>Attentiveness</a>
+		<a href="javascript:void(0);" data-ng-click="toggleSelected('education')" class="tile" data-ng-class="{selected: traits.education}"><img src='/img/education_150.png' /><br/>Education</a>
+		<a href="javascript:void(0);" data-ng-click="toggleSelected('reputation')" class="tile" data-ng-class="{selected: traits.reputation}"><img src='/img/reputation_150.png' /><br/>Reputation</a>
+	</div>
+	<a href="#/where" class="btn btn-primary btn-lg btn-wide" data-ng-class="{disabled: !canProceed}">Next</a>
 </div>
-<div>
-	<a href="javascript:void(0);" data-ng-click="toggleSelected('attentiveness')" class="tile" data-ng-class="{selected: traits.attentiveness}">Attentiveness</a>
-	<a href="javascript:void(0);" data-ng-click="toggleSelected('education')" class="tile" data-ng-class="{selected: traits.education}">Education</a>
-	<a href="javascript:void(0);" data-ng-click="toggleSelected('reputation')" class="tile" data-ng-class="{selected: traits.reputation}">Reputation</a>
-</div>
-<a href="#/where" class="btn btn-primary btn-lg btn-wide" data-ng-class="{disabled: !canProceed}">Next</button>
+
