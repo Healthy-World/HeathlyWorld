@@ -190,6 +190,8 @@ img.map
 
 #footer
 {
+	padding-bottom: 20px;
+	padding-top: 20px;
 	position: absolute;
 	text-align: center;
 	width: 100%;
