@@ -27,21 +27,12 @@ module.controller('TraitsCtrl', ['$scope',
 
 module.controller('ResultsCtrl', ['$scope', '$http',
 	function($scope, $http) {
-		$scope.isEmptyObj = function(obj) {
-			for (var prop in obj) {
-				if (obj.hasOwnProperty(prop))
-					return false;
-			}
-			return true;
-		}
-
 		$http({
 			method: 'GET',
 			url: '/api/doctors'
-		})
-			.success(function(data) {
-				$scope.doctors = data;
-			});
+		}).success(function(data) {
+			$scope.doctors = data;
+		});
 	}
 ]);
 
@@ -62,10 +53,9 @@ module.controller('ProfileCtrl', ['$scope', '$http', '$routeParams',
 		$http({
 			method: 'GET',
 			url: '/api/doctors/' + $routeParams.id
-		})
-			.success(function(data) {
-				$scope.doctor = data;
-			});
+		}).success(function(data) {
+			$scope.doctor = data;
+		});
 	}
 ]);
 

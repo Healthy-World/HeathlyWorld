@@ -9,17 +9,18 @@
           <a href="javascript:void(0);">{{ doctor.name }}</a>
         </h3>
         <div>{{ doctor.address.street }} {{ doctor.address.city }}</div>
-        <div ng-if="isEmptyObj(doctor.availability)"> <strong>Currently unavailability</strong>
+        <div ng-if="!doctor.availability">
+          <strong>Currently unavailability</strong>
         </div>
 
-        <div ng-if="!isEmptyObj(doctor.availability)"> <strong>Availability</strong>
-          <ul data-ng-repeat="avail in doctor.availability">
+        <div ng-if="doctor.availability">
+          <strong>Availability</strong>
+          <div data-ng-repeat="avail in doctor.availability">
             <div>{{avail}}</div>
           </div>
           <button event='phone' class='btn btn-success call' onClick='ext.track(this);'>
-            <span class='glyphicon glyphicon-earphone'></span>
-            &nbsp;Call {{doctor.phone}}
-          </span>
+            <span class='glyphicon glyphicon-earphone'></span>&nbsp;Call {{doctor.phone}}
+          </button>
         </div>
       </div>
     </div>
@@ -58,7 +59,7 @@
     </div>
     <div class='row'>
         <div class='col-xs-12'>
-          <img class='map' src="http://maps.googleapis.com/maps/api/staticmap?center={{ doctor.coords.lat }},{{ doctor.coords.lng }}&zoom=15&size=500x300&sensor=false" />
+          <img class='map' src="http://maps.googleapis.com/maps/api/staticmap?center={{ doctor.address.gps.lat }},{{ doctor.address.gps.long }}&zoom=15&size=500x300&sensor=false" />
         </div>
       </div>
   </div>

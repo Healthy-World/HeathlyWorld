@@ -193,16 +193,105 @@ img.map
 	padding-bottom: 20px;
 	padding-top: 20px;
 	position: absolute;
-	text-align: center;
-	width: 100%;
+<<<<<<< HEAD
+}
+
+.services {
+  background: none;
+  padding: 50px 0;
+  color: #000;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid #c3dcee;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 105px;
+  height: 105px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.yang {
+  background: url(http://www.gravatar.com/avatar/dfd8e83638fe962113831dd24f2b65c5?d=http%3A%2F%2Fdemo.sparkboard.org%2Fimages%2Fman-icon.png&s=100);
+}
+
+.juan {
+  background: url(https://www.filepicker.io/api/file/HEDFWMUSgWinZlBK5Rct/convert?w=100&h=100&fit=crop);
+}
+
+.jason {
+  background: url(http://www.gravatar.com/avatar/e9e3ee682aa56d56bbaadb09a2bbf792?d=http%3A%2F%2Fdemo.sparkboard.org%2Fimages%2Fman-icon.png&s=100);
+}
+
+.henry {
+  background: url(https://www.filepicker.io/api/file/8aH69gLAQ22wLSxMQFeS/convert?w=100&h=100&fit=crop);
+}
+
+.zhuyi {
+  background: url(https://www.filepicker.io/api/file/XfKQG6LrRCiYaiydvNLD/convert?w=100&h=100&fit=crop);
+}
+
+.juli {
+  background: url(https://www.filepicker.io/api/file/x5ymvQuQKi4Ol2i8mru4/convert?w=100&h=100&fit=crop);
+}
+
+.cam {
+  background: url(http://m3.c.lnkd.licdn.com/media/p/4/000/1b2/059/2f74d83.jpg);
+}
+
+.vlad {
+  background: url(https://www.filepicker.io/api/file/FBtytc5zS7Gs8lnahcKD/convert?w=100&h=100&fit=crop);
+}
+
+.ritu {
+  background: url(https://dl.dropboxusercontent.com/u/28229156/OPENCARE/ritupicture2.jpg);
 }
 
 .list-group-item
 {
 	margin-bottom: 15px;
+<<<<<<< HEAD
+}
+=======
 }
 
+<<<<<<< HEAD
 .match-score
 {
 	font-size: 25px;
 }
+=======
+a.feedback,
+a:hover.feedback,
+a:focus.feedback,
+a:active.feedback
+{
+    text-decoration: none;
+}
+
+.feedback {
+    background-color: rgb(255, 112, 0);
+    color: white;
+    font-size: 1.3em;
+    padding: 0 20px;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+>>>>>>> 14271ece9a6b3213793c78fd2fc075a61614d726
+>>>>>>> aa207e372d0dd16d2af61635a7a2ed95e0c8a1e6
