@@ -1,16 +1,17 @@
 var module = angular.module('App', ['ngRoute']);
 
 module.controller('ResultsCtrl', ['$scope', function($scope) {
-
+    $scope.$on('$routeChangeStart', function(next, current) { 
+    });
 }]);
 
 module.config(['$routeProvider', function($routeProvider) {
     $routeProvider
-        .when("/gender", {
-            templateUrl: "/partials/gender.html"
-        })
         .when("/home", {
             templateUrl: "/partials/home.html"
+        })
+        .when("/gender", {
+            templateUrl: "/partials/gender.html"
         })
         .when("/age", {
             templateUrl: "/partials/age.html"
@@ -21,7 +22,7 @@ module.config(['$routeProvider', function($routeProvider) {
         .when("/where", {
             templateUrl: "/partials/where.html"
         })
-		.otherwise({redirectTo: "/gender"});
+		.otherwise({redirectTo: "/home"});
 }]);
 
 angular.bootstrap(document.getElementById('App'), ['App']);
