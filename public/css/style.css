@@ -169,18 +169,29 @@ img.phone_call {
     width: 7%;
 }
 
+.doctor-profile {
+	text-align: left;
+}
 .doctor-profile img.photo {
+	-moz-box-shadow: 5px 5px 5px #CCC;
+	-webkit-box-shadow: 5px 5px 5px #CCC;
+	box-shadow: 5px 5px 5px #CCC;
     width: 200px;
     float: left;
 }
 
-.row {
+.reviews {
     margin-bottom: 10px;
-    text-align: left;
 }
 
-.span-right .attributes {
-    text-indent: 20px;
+.list-group-item {
+	border: none;
+	border-bottom: 1px solid #cbdbe6;
+	margin-bottom: 15px;
+}
+
+.attributes {
+    font-size: 12px;
 }
 
 img.map
@@ -195,11 +206,6 @@ img.map
 	position: absolute;
 	text-align: center;
 	width: 100%;
-}
-
-.list-group-item
-{
-	margin-bottom: 15px;
 }
 
 a.feedback,
