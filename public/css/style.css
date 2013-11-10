@@ -190,6 +190,8 @@ img.map
 
 #footer
 {
+	padding-bottom: 20px;
+	padding-top: 20px;
 	position: absolute;
 <<<<<<< HEAD
 }
@@ -205,7 +207,7 @@ img.map
 }
 
 i.service-icon {
-  border: 3px solid #eee;
+  border: 3px solid #c3dcee;
   border-radius: 50%;
   display: inline-block;
   font-size: 56px;
@@ -255,4 +257,34 @@ i.service-icon {
 .list-group-item
 {
 	margin-bottom: 15px;
+<<<<<<< HEAD
 }
+=======
+}
+
+a.feedback,
+a:hover.feedback,
+a:focus.feedback,
+a:active.feedback
+{
+    text-decoration: none;
+}
+
+.feedback {
+    background-color: rgb(255, 112, 0);
+    color: white;
+    font-size: 1.3em;
+    padding: 0 20px;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+>>>>>>> 14271ece9a6b3213793c78fd2fc075a61614d726
