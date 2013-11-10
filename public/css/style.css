@@ -201,3 +201,29 @@ img.map
 {
 	margin-bottom: 15px;
 }
+
+a.feedback,
+a:hover.feedback,
+a:focus.feedback,
+a:active.feedback
+{
+    text-decoration: none;
+}
+
+.feedback {
+    background-color: rgb(255, 112, 0);
+    color: white;
+    font-size: 1.3em;
+    padding: 0 20px;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
