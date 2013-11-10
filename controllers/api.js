@@ -1,4 +1,4 @@
-[    {
+var data = [{
         "id": 345,
         "name": "Dr. Bowen Chan",
         "gender": "M",
@@ -201,4 +201,21 @@
         ]
     }
 
-]
+];
+
+function findDoctorById(id) {
+    for (var i = 0; i < data.length; i++) {
+        if (data[i].id == id)
+            return data[i];
+    }
+
+    return {};
+}
+
+exports.getDoctors = function(req, res) {
+    res.json(data);
+};
+
+exports.getDoctor = function(req, res) {
+    res.json(findDoctorById(req.params.id));
+};
