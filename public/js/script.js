@@ -44,19 +44,18 @@ module.controller('ResultsCtrl', ['$scope', '$http',
 
 module.controller('LoadingCtrl', ['$scope', '$location', '$timeout',
 	function($scope, $location, $timeout) {
-		$scope.$on('$viewContentLoaded', function() {
-			$timeout(function() {
-				$location.path('results');
-			}, 2000);
-		});
+		$timeout(function() {
+			$location.path('results');
+		}, 2000);
 	}
 ]);
 
-module.controller('ProfileCtrl', ['$scope', '$location', '$timeout',
-	function($scope, $location, $timeout) {
-		$scope.$on('$viewContentLoaded', function() {
-
-		});
+module.controller('ProfileCtrl', ['$scope', '$http', '$routeParams',
+	function($scope, $http, $routeParams) {
+		$http({ method: 'GET', url: '/api/doctors/' + $routeParams.id })
+			.success(function(data){
+				$scope.doctor = data;
+			});	
 	}
 ]);
 
