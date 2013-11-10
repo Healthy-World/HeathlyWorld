@@ -21,14 +21,23 @@ h1 {
 	-o-border-radius: 10px;
 
 	background-color: white;
-	border: 5px solid #CCC;
-	color: #666;
+	border: 5px solid #c3dcee;
+	color: #4b6784;
 	display: inline-block;
 	font-size: 30px;
+	font-weight: 100;
 	height: 200px;
 	margin: 25px;
 	padding-top: 70px;
 	width: 200px;
+}
+.tile:hover {
+	border-color: #4b6784;
+	text-decoration: none;
+}
+.age .tile {
+	font-size: 50px;
+	padding-top: 55px;
 }
 
 .centered-form {
