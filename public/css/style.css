@@ -91,3 +91,35 @@ h1 {
     margin: 50px auto;
     padding: 20px;
 }
+
+.doctor-info {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+
+	background: white;
+	border: 5px solid #c3dcee;
+	margin: 20px auto 10px;
+	padding: 10px;
+	text-align: left;
+	width: 600px;
+}
+.doctor-info img {
+	width: 100px;
+}
+.doctor-info h3 {
+	margin-top: 0;
+}
+.doctor-info .doctor-left {
+	border: 2px solid #4b6784;
+	display: inline-block;
+	height: 100px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.doctor-info .doctor-main {
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
