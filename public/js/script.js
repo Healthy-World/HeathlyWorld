@@ -23,8 +23,17 @@ module.controller('TraitsCtrl', ['$scope', function($scope) {
 }]);
 
 module.controller('ResultsCtrl', ['$scope', function($scope) {
+    $scope.isEmptyObj = function(obj) {
+	for(var prop in obj) {
+            if(obj.hasOwnProperty(prop))
+		return false;
+	}
+	return true;
+    }
+
 	$scope.doctors = [
 	    {
+		"id"  : 0,
 	        "name": "Dr. Michael Lewis BSc, MD, CCFP",
 	        "gender": "M",
 	        "image": "http://stemmedcancer.com/wp-content/uploads/2011/10/Michael_Lewis-e1319515460190.jpg",
@@ -54,7 +63,9 @@ module.controller('ResultsCtrl', ['$scope', function($scope) {
 	            }
 	        ]
 	    },
+
 	    {
+		"id": 1,
 	        "name": "Dr. Sharon Hind BScH, MD, CCFP",
 	        "gender": "F",
 	        "image": "http://nonprophetstatus.files.wordpress.com/2010/02/sharonwelch.jpg",
@@ -84,7 +95,9 @@ module.controller('ResultsCtrl', ['$scope', function($scope) {
 	            }
 	        ]
 	    },
+
 	    {
+		"id": 2,
 	        "name": "Dr. Sheeja Mathai",
 	        "gender": "F",
 	        "image": "http://www.soukya.com/images/drmathai2008.jpg",
@@ -100,6 +113,7 @@ module.controller('ResultsCtrl', ['$scope', function($scope) {
 	        "reviews": []
 	    },
 	    {
+		"id": 3,
 	        "name": "Dr. Preston Tran",
 	        "gender": "M",
 	        "image": "http://blogs.worldbank.org/files/dmblog/Dr_%20Tran%20Triet.JPG",
@@ -125,6 +139,11 @@ module.controller('ResultsCtrl', ['$scope', function($scope) {
 	        ]
 	    }
 	];
+
+    $scope.showProfile = function(id) {
+	$scope.thedoc = $scope.doctors[id];
+    }
+
 }]);
 
 module.config(['$routeProvider', function($routeProvider) {
@@ -149,7 +168,13 @@ module.config(['$routeProvider', function($routeProvider) {
         	controller: 'ResultsCtrl',
             templateUrl: "/partials/results.html"
         })
+        .when("/user", {
+        	controller: 'ResultsCtrl',
+            templateUrl: "/partials/user.html"
+        })
+
 		.otherwise({redirectTo: "/home"});
 }]);
 
 angular.bootstrap(document.getElementById('App'), ['App']);
+
