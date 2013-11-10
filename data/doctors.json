@@ -28,5 +28,35 @@
                 }
             }
         ]
+    },
+    {
+        "name": "Dr. Sharon Hind BScH, MD, CCFP",
+        "gender": "F",
+        "image": "http://nonprophetstatus.files.wordpress.com/2010/02/sharonwelch.jpg",
+        "availability" : {
+            "Monday": "10am - 2pm",
+            "Tuesday": "11am - 5pm",
+            "Wednesday": "10am - 5pm"
+        },
+        "phone": "416-486-1956",
+        "address": {
+            "street": "200 St. Clair Ave. West Suite 110",
+            "city": "Toronto",
+            "prov": "ON",
+            "postal": "M4V 1R1"
+        },
+        "reviews": [
+            {
+                "name": "",
+                "rating": 5,
+                "comments": "",
+                "attributes": {
+                    "staff": 5,
+                    "punctual": 5,
+                    "helpful": 5,
+                    "knowledge": 5
+                }
+            }
+        ]
     }
 ]
