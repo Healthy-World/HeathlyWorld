@@ -169,6 +169,20 @@ img.phone_call {
     width: 7%;
 }
 
+.doctor-profile img.photo {
+    width: 200px;
+    float: left;
+}
+
+.row {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.span-right .attributes {
+    text-indent: 20px;
+}
+
 img.map
 {
 	width: 100%;
@@ -177,6 +191,7 @@ img.map
 #footer
 {
 	position: absolute;
+<<<<<<< HEAD
 }
 
 .services {
@@ -233,10 +248,11 @@ i.service-icon {
   background: url(https://www.filepicker.io/api/file/FBtytc5zS7Gs8lnahcKD/convert?w=100&h=100&fit=crop);
 }
 
-.jullie {
-  background: url(https://www.filepicker.io/api/file/HEDFWMUSgWinZlBK5Rct/convert?w=100&h=100&fit=crop);
+.ritu {
+  background: url(https://dl.dropboxusercontent.com/u/28229156/OPENCARE/ritupicture2.jpg);
 }
 
-.jullie {
-  background: url(https://www.filepicker.io/api/file/HEDFWMUSgWinZlBK5Rct/convert?w=100&h=100&fit=crop);
+.list-group-item
+{
+	margin-bottom: 15px;
 }
