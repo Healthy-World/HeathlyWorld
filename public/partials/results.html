@@ -1,13 +1,48 @@
 <h1>Here are some doctors we recommend for you</h1>
 <div class="doctors-container">
-	<div class="doctor-info" data-ng-repeat="doctor in doctors">
-		<div class="doctor-left">
-			<img data-ng-src="{{ doctor.image }}"/>
-		</div>
-		<div class="doctor-main">
-			<h3>{{ doctor.name }}</h3>
-			<div>{{ doctor.phone }}</div>
-			<div>{{ doctor.address.street }} {{ doctor.address.city }}</div>
-		</div>
+  <div class="doctor-info" data-ng-repeat="doctor in doctors">
+    <div class="doctor-left">
+      <img data-ng-src="{{ doctor.image }}"/>
+    </div>
+    <div class="doctor-main">
+      <h3>
+	<a href="javascript:void(0);" data-ng-click="showProfile(doctor.id)">
+	  {{ doctor.name }}
+	</a>
+      </h3>
+      <div>{{ doctor.phone }}</div>
+      <div>{{ doctor.address.street }} {{ doctor.address.city }}</div>
+      
+      <div ng-if="thedoc.id == doctor.id">
+	<div ng-if="isEmptyObj(thedoc.availability)">
+	  <strong>Currently unavailability</strong>
 	</div>
+	  
+	<div ng-if="!isEmptyObj(thedoc.availability)">
+	  <strong>Availability</strong>:
+	  <ul data-ng-repeat="avail in thedoc.availability">
+	    <li>{{avail}}</li>
+	  </ul>
+	  <img class="phone_call" data-ng-src="/img/phone_call.png"/>
+	</div>
+
+	<div ng-if="thedoc.reviews.length > 0">
+	  <strong>Review</strong>:
+	  <ul data-ng-repeat="revi in thedoc.reviews">
+	    <li>rating: {{revi.rating}}</li>
+	    <li>comments: {{revi.comments}}</li>
+	    <li>Attributes:
+	      <ul>
+		<li>Staff: {{revi.attributes.staff}}</li>
+		<li>Punctual: {{revi.attributes.punctual}}</li>
+		<li>Helpful: {{revi.attributes.helpful}}</li>
+		<li>Knowledge: {{revi.attributes.knowledge}}</li>
+	      </ul>
+	    </li>
+	  </ul>
+	</div>
+
+      </div>
+    </div>
+  </div>
 </div>
