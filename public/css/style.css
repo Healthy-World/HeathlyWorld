@@ -8,6 +8,7 @@ body {
 
 h1 {
 	font-weight: 200;
+	padding-bottom: 15px;
 }
 
 #App {
@@ -37,9 +38,24 @@ h1 {
 	text-decoration: none;
 }
 .tile.selected {
-	border-color: #4b6784;
-	text-decoration: underline;
+	border-color: #17D6A1;
+	text-decoration: none;
 }
+
+h1 {
+	font-weight: 800;
+}
+
+.factors {
+	color: #2a6496; 
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #17D6A1;
+	border-color: #17D6A1;
+}
+
 .age .tile {
 	font-size: 50px;
 	padding-top: 55px;
@@ -56,9 +72,15 @@ h1 {
 	padding-right: 50px;
 }
 
+.icon-tiles > div > a.selected > img
+{
+	opacity: 1;
+}
+
 .icon-tiles > div > a > img
 {
 	width: 50%;
+	opacity:0.6;
 }
 .icon-tiles > div > .tile
 {
@@ -112,9 +134,9 @@ h1 {
 	margin: 20px auto 10px;
 	padding: 10px;
 	text-align: left;
-	width: 600px;
+	width: 100%;
 }
-.doctor-info img {
+.doctor-info img.photo {
 	width: 100px;
 }
 .doctor-info h3 {
@@ -136,6 +158,11 @@ h1 {
 #page-wrap .btn.search
 {
 	background-color: #75cc99;
+}
+
+.progress-panel
+{
+	padding: 150px;
 }
 
 img.phone_call {
