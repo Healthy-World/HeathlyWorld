@@ -7,7 +7,8 @@ var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
   , http = require('http')
-  , path = require('path');
+  , path = require('path')
+  , api = require('./controllers/api.js');
 
 var app = express();
 
@@ -28,6 +29,9 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
+app.get('/api/doctors', api.getDoctors);
+app.get('/api/doctors/:id', api.getDoctor);
+
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
