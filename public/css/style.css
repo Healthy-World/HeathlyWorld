@@ -183,6 +183,13 @@ img.phone_call {
     text-indent: 20px;
 }
 
-/* .doctor-profile ul { */
-/*     list-style-type: none; */
-/* } */
+img.map
+{
+	width: 100%;
+}
+
+#footer
+{
+	position: absolute;
+}
+

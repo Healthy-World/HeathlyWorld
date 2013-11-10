@@ -14,7 +14,11 @@ var data = [{
             "street": "473 Dupont Street",
             "city": "Toronto",
             "prov": "ON",
-            "postal": "M6G 1Y6"
+            "postal": "M6G 1Y6",
+            "gps" {
+                "lat": 43.6728208,
+                "long": -79.4150052
+            }
         },
         "reviews": [
             {
@@ -78,7 +82,11 @@ var data = [{
             "street": "200 St. Clair Ave. West Suite 110",
             "city": "Toronto",
             "prov": "ON",
-            "postal": "M4V 1R1"
+            "postal": "M4V 1R1",
+            "gps" {
+                "lat": 43.6866184,
+                "long": -79.4025450
+            }
         },
         "reviews": [
             {
@@ -109,7 +117,11 @@ var data = [{
             "street": "200 St. Clair Ave. West Suite 110",
             "city": "Toronto",
             "prov": "ON",
-            "postal": "M4V 1R1"
+            "postal": "M4V 1R1",
+            "gps" {
+                "lat": 43.6866184,
+                "long": -79.4025450
+            }
         },
         "reviews": [
             {
@@ -170,7 +182,11 @@ var data = [{
             "street": "390 Steeles Avenue West",
             "city": "Vaughan",
             "prov": "ON",
-            "postal": "L4J"
+            "postal": "L4J",
+            "gps" {
+                "lat": 43.7950938,
+                "long": -79.4338563
+            }
         },
         "reviews": []
     },
@@ -184,7 +200,11 @@ var data = [{
             "street": "390 Steeles Avenue West",
             "city": "Vaughan",
             "prov": "ON",
-            "postal": "L4J"
+            "postal": "L4J",
+            "gps" {
+                "lat": 43.7950938,
+                "long": -79.4338563
+            }
         },
         "reviews": [
             {
