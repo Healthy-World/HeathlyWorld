@@ -16,7 +16,11 @@
 			<ul data-ng-repeat="avail in doctor.availability">
 				<li>{{avail}}</li>
 			</ul>
-			<img class="phone_call" data-ng-src="/img/phone_call.png"/>
+
+			<button event='phone' class='btn btn-success call' onClick='ext.track(this);'>
+				<span class='glyphicon glyphicon-earphone'></span>
+				&nbsp;Call {{doctor.phone}}
+			</span>
 		</div>
 
 		<img class='map' src="http://maps.googleapis.com/maps/api/staticmap?center={{ doctor.coords.lat }},{{ doctor.coords.lng }}&zoom=15&size=500x300&sensor=false">

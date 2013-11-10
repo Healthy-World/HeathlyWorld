@@ -47,6 +47,8 @@ module.controller('ResultsCtrl', ['$scope', '$http',
 
 module.controller('LoadingCtrl', ['$scope', '$location', '$timeout',
 	function($scope, $location, $timeout) {
+		mixpanel.track("Search");
+
 		$timeout(function() {
 			$location.path('results');
 		}, 2000);
@@ -55,6 +57,8 @@ module.controller('LoadingCtrl', ['$scope', '$location', '$timeout',
 
 module.controller('ProfileCtrl', ['$scope', '$http', '$routeParams',
 	function($scope, $http, $routeParams) {
+		mixpanel.track("Profile");
+
 		$http({
 			method: 'GET',
 			url: '/api/doctors/' + $routeParams.id
