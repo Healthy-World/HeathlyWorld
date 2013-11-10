@@ -88,7 +88,7 @@ h1 {
     position: relative;
     z-index: 2;
     color: white;
-    margin: 50px auto;
+    margin: 200px auto;
     padding: 20px;
 }
 
@@ -123,3 +123,9 @@ h1 {
 	padding-top: 10px;
 	vertical-align: top;
 }
+
+#page-wrap .btn.search
+{
+	background-color: #75cc99;
+}
+
