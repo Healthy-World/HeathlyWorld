@@ -1,3 +1,14 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-image: url(/img/bg.jpg);
+	background-repeat: repeat;
+	background-position: top center;
+}
+
+h1 {
+	font-weight: 200;
+}
+
 #App {
 	margin-top: 80px;
 	text-align: center;
@@ -9,14 +20,24 @@
 	-moz-border-radius: 10px;
 	-o-border-radius: 10px;
 
-	border: 2px solid #999;
-	color: #666;
+	background-color: white;
+	border: 5px solid #c3dcee;
+	color: #4b6784;
 	display: inline-block;
 	font-size: 30px;
+	font-weight: 100;
 	height: 200px;
 	margin: 25px;
 	padding-top: 70px;
 	width: 200px;
+}
+.tile:hover {
+	border-color: #4b6784;
+	text-decoration: none;
+}
+.age .tile {
+	font-size: 50px;
+	padding-top: 55px;
 }
 
 .centered-form {
