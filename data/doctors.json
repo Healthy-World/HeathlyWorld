@@ -1,7 +1,8 @@
 [    {
+        "id": 345,
         "name": "Dr. Bowen Chan",
         "gender": "M",
-        "image": "https://education.kennesaw.edu/edleadership/sites/education.kennesaw.edu.edleadership/files/chan.jpg",
+        "image": "/img/doctors/chan_small.jpg",
         "availability" : {
             "Monday": "8:30am - 5:30pm",
             "Wednesday": "1:30pm - 7:30pm",
@@ -63,9 +64,10 @@
         ]
     },
     {
+        "id": 564,
         "name": "Dr. Michael Lewis BSc, MD, CCFP",
         "gender": "M",
-        "image": "http://stemmedcancer.com/wp-content/uploads/2011/10/Michael_Lewis-e1319515460190.jpg",
+        "image": "/img/doctors/Michael_Lewis_small.jpg",
         "availability" : {
             "Monday": "9am - 5pm",
             "Tuesday": "9am - 12pm",
@@ -93,9 +95,10 @@
         ]
     },
     {
+        "id": 675,
         "name": "Dr. Sharon Hind BScH, MD, CCFP",
         "gender": "F",
-        "image": "http://nonprophetstatus.files.wordpress.com/2010/02/sharonwelch.jpg",
+        "image": "/img/doctors/sharonwelch_small.jpg",
         "availability" : {
             "Monday": "10am - 2pm",
             "Tuesday": "11am - 5pm",
@@ -156,9 +159,10 @@
         ]
     },
     {
+        "id": 152,
         "name": "Dr. Sheeja Mathai",
         "gender": "F",
-        "image": "http://www.soukya.com/images/drmathai2008.jpg",
+        "image": "/img/doctors/drmathai_small.jpg",
         "availability" : {
         },
         "phone": "647-722-2370",
@@ -171,9 +175,10 @@
         "reviews": []
     },
     {
+        "id": 222,
         "name": "Dr. Preston Tran",
         "gender": "M",
-        "image": "http://blogs.worldbank.org/files/dmblog/Dr_%20Tran%20Triet.JPG",
+        "image": "/img/doctors/TranTriet_small.jpg",
         "phone": "647-722-2370",
         "address": {
             "street": "390 Steeles Avenue West",
