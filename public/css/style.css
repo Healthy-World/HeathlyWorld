@@ -1,3 +1,14 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-image: url(/img/bg.jpg);
+	background-repeat: repeat;
+	background-position: top center;
+}
+
+h1 {
+	font-weight: 200;
+}
+
 #App {
 	margin-top: 80px;
 	text-align: center;
@@ -9,7 +20,8 @@
 	-moz-border-radius: 10px;
 	-o-border-radius: 10px;
 
-	border: 2px solid #999;
+	background-color: white;
+	border: 5px solid #CCC;
 	color: #666;
 	display: inline-block;
 	font-size: 30px;
