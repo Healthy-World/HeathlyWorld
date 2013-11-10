@@ -11,5 +11,8 @@
 			<div>{{ doctor.address.street }} {{ doctor.address.city }}</div>
 			<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fhealthyworld.heroku.com%2F%23%2Fprofile%2F{{doctor.id}}&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=229508973883734" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
 		</div>
+		<div class='pull-right'>
+			<span class='match-score'><b>{{ doctor.match }}</b> match</span>
+		</div>
 	</div>
 </div>
