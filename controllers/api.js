@@ -15,7 +15,7 @@ var data = [{
             "city": "Toronto",
             "prov": "ON",
             "postal": "M6G 1Y6",
-            "gps" {
+            "gps": {
                 "lat": 43.6728208,
                 "long": -79.4150052
             }
@@ -83,7 +83,7 @@ var data = [{
             "city": "Toronto",
             "prov": "ON",
             "postal": "M4V 1R1",
-            "gps" {
+            "gps": {
                 "lat": 43.6866184,
                 "long": -79.4025450
             }
@@ -118,7 +118,7 @@ var data = [{
             "city": "Toronto",
             "prov": "ON",
             "postal": "M4V 1R1",
-            "gps" {
+            "gps": {
                 "lat": 43.6866184,
                 "long": -79.4025450
             }
@@ -201,7 +201,7 @@ var data = [{
             "city": "Vaughan",
             "prov": "ON",
             "postal": "L4J",
-            "gps" {
+            "gps": {
                 "lat": 43.7950938,
                 "long": -79.4338563
             }
