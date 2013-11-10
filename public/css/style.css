@@ -1,4 +1,26 @@
-.body-content {
+#App {
 	margin-top: 80px;
 	text-align: center;
+}
+
+.tile {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+
+	border: 2px solid #999;
+	color: #666;
+	display: inline-block;
+	font-size: 36px;
+	height: 200px;
+	margin: 25px;
+	padding-top: 70px;
+	width: 200px;
+}
+
+.centered-form {
+	width: 300px;
+	margin: 30px auto;
+	padding-right: 35px;
 }
