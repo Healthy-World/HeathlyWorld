@@ -12,7 +12,7 @@ h1 {
 }
 
 #App {
-	margin-top: 80px;
+	margin-top: 40px;
 	text-align: center;
 }
 
@@ -199,11 +199,10 @@ img.map
 	width: 100%;
 }
 
-#footer
-{
+#footer {
 	padding-bottom: 20px;
-	padding-top: 20px;
-	position: absolute;
+	padding-top: 100px;
+	text-align: center;
 }
 
 .services {
@@ -253,7 +252,7 @@ i.service-icon {
 }
 
 .cam {
-  background: url(http://m3.c.lnkd.licdn.com/media/p/4/000/1b2/059/2f74d83.jpg);
+  background: url(http://m3.c.lnkd.licdn.com/media/p/4/000/1b2/059/2f74d83.jpg) center center;
 }
 
 .vlad {

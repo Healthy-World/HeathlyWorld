@@ -1,6 +1,6 @@
 var data = [{
         "id": 345,
-        match: '93%',
+        "match": '93%',
         "name": "Dr. Bowen Chan",
         "gender": "M",
         "image": "/img/doctors/chan_small.jpg",
@@ -70,7 +70,7 @@ var data = [{
     },
     {
         "id": 564,
-        match: '92%',
+        "match": '92%',
         "name": "Dr. Michael Lewis BSc, MD, CCFP",
         "gender": "M",
         "image": "/img/doctors/Michael_Lewis_small.jpg",
@@ -106,7 +106,7 @@ var data = [{
     },
     {
         "id": 675,
-        match: '91%',
+        "match": '91%',
         "name": "Dr. Sharon Hind BScH, MD, CCFP",
         "gender": "F",
         "image": "/img/doctors/sharonwelch_small.jpg",
@@ -175,7 +175,7 @@ var data = [{
     },
     {
         "id": 152,
-        match: '89%',
+        "match": '89%',
         "name": "Dr. Sheeja Mathai",
         "gender": "F",
         "image": "/img/doctors/drmathai_small.jpg",
@@ -196,7 +196,7 @@ var data = [{
     },
     {
         "id": 222,
-        match: '85%',
+        "match": '85%',
         "name": "Dr. Preston Tran",
         "gender": "M",
         "image": "/img/doctors/TranTriet_small.jpg",
