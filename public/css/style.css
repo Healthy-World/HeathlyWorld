@@ -71,6 +71,7 @@ h1 {
     left: -50%;
     width: 200%;
     height: 200%;
+    opacity: 0.65; 
 }
 
 #bg img {
@@ -91,6 +92,14 @@ h1 {
     margin: 200px auto;
     padding: 20px;
 }
+
+#social{
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding-left: 140px;
+}
+
 
 .doctor-info {
 	border-radius: 5px;
