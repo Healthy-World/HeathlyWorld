@@ -178,3 +178,65 @@ img.map
 {
 	position: absolute;
 }
+
+.services {
+  background: none;
+  padding: 50px 0;
+  color: #000;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid #eee;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 105px;
+  height: 105px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.yang {
+  background: url(http://www.gravatar.com/avatar/dfd8e83638fe962113831dd24f2b65c5?d=http%3A%2F%2Fdemo.sparkboard.org%2Fimages%2Fman-icon.png&s=100);
+}
+
+.juan {
+  background: url(https://www.filepicker.io/api/file/HEDFWMUSgWinZlBK5Rct/convert?w=100&h=100&fit=crop);
+}
+
+.jason {
+  background: url(http://www.gravatar.com/avatar/e9e3ee682aa56d56bbaadb09a2bbf792?d=http%3A%2F%2Fdemo.sparkboard.org%2Fimages%2Fman-icon.png&s=100);
+}
+
+.henry {
+  background: url(https://www.filepicker.io/api/file/8aH69gLAQ22wLSxMQFeS/convert?w=100&h=100&fit=crop);
+}
+
+.zhuyi {
+  background: url(https://www.filepicker.io/api/file/XfKQG6LrRCiYaiydvNLD/convert?w=100&h=100&fit=crop);
+}
+
+.juli {
+  background: url(https://www.filepicker.io/api/file/x5ymvQuQKi4Ol2i8mru4/convert?w=100&h=100&fit=crop);
+}
+
+.cam {
+  background: url(http://m3.c.lnkd.licdn.com/media/p/4/000/1b2/059/2f74d83.jpg);
+}
+
+.vlad {
+  background: url(https://www.filepicker.io/api/file/FBtytc5zS7Gs8lnahcKD/convert?w=100&h=100&fit=crop);
+}
+
+.jullie {
+  background: url(https://www.filepicker.io/api/file/HEDFWMUSgWinZlBK5Rct/convert?w=100&h=100&fit=crop);
+}
+
+.jullie {
+  background: url(https://www.filepicker.io/api/file/HEDFWMUSgWinZlBK5Rct/convert?w=100&h=100&fit=crop);
+}
