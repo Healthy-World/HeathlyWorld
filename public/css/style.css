@@ -35,6 +35,10 @@ h1 {
 	border-color: #4b6784;
 	text-decoration: none;
 }
+.tile.selected {
+	border-color: #4b6784;
+	text-decoration: underline;
+}
 .age .tile {
 	font-size: 50px;
 	padding-top: 55px;

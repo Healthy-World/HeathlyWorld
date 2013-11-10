@@ -1,12 +1,12 @@
 <h1>What 3 factors do you care about most?</h1>
 <div>
-	<a href="#/traits" class="tile">Experience</a>
-	<a href="#/traits" class="tile">Availability</a>
-	<a href="#/traits" class="tile">Location</a>
+	<a href="javascript:void(0);" data-ng-click="toggleSelected('experience')" class="tile" data-ng-class="{selected: traits.experience}">Experience</a>
+	<a href="javascript:void(0);" data-ng-click="toggleSelected('availability')" class="tile" data-ng-class="{selected: traits.availability}">Availability</a>
+	<a href="javascript:void(0);" data-ng-click="toggleSelected('location')" class="tile" data-ng-class="{selected: traits.location}">Location</a>
 </div>
 <div>
-	<a href="#/traits" class="tile">Attentiveness</a>
-	<a href="#/traits" class="tile">Education</a>
-	<a href="#/traits" class="tile">Reputation</a>
+	<a href="javascript:void(0);" data-ng-click="toggleSelected('attentiveness')" class="tile" data-ng-class="{selected: traits.attentiveness}">Attentiveness</a>
+	<a href="javascript:void(0);" data-ng-click="toggleSelected('education')" class="tile" data-ng-class="{selected: traits.education}">Education</a>
+	<a href="javascript:void(0);" data-ng-click="toggleSelected('reputation')" class="tile" data-ng-class="{selected: traits.reputation}">Reputation</a>
 </div>
-<a href="#/results" class="btn btn-primary btn-lg btn-wide">Next</button>
+<a href="#/where" class="btn btn-primary btn-lg btn-wide" data-ng-class="{disabled: !canProceed}">Next</button>
