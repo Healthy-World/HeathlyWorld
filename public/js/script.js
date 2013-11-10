@@ -1,5 +1,9 @@
 var module = angular.module('App', ['ngRoute']);
 
+module.controller('ResultsCtrl', ['$scope', function($scope) {
+
+}]);
+
 module.config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when("/gender", {
@@ -7,6 +11,9 @@ module.config(['$routeProvider', function($routeProvider) {
         })
         .when("/age", {
             templateUrl: "/partials/age.html"
+        })
+        .when("/traits", {
+            templateUrl: "/partials/traits.html"
         })
         .when("/where", {
             templateUrl: "/partials/where.html"

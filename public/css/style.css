@@ -12,7 +12,7 @@
 	border: 2px solid #999;
 	color: #666;
 	display: inline-block;
-	font-size: 36px;
+	font-size: 30px;
 	height: 200px;
 	margin: 25px;
 	padding-top: 70px;
@@ -23,4 +23,9 @@
 	width: 300px;
 	margin: 30px auto;
 	padding-right: 35px;
+}
+
+.btn-wide {
+	padding-left: 50px;
+	padding-right: 50px;
 }
