@@ -259,6 +259,12 @@ i.service-icon {
 	margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
+.match-score
+{
+	font-size: 25px;
+}
+=======
 a.feedback,
 a:hover.feedback,
 a:focus.feedback,
@@ -284,3 +290,8 @@ a:active.feedback
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 14271ece9a6b3213793c78fd2fc075a61614d726
+>>>>>>> aa207e372d0dd16d2af61635a7a2ed95e0c8a1e6
+>>>>>>> a820786f445381f9949640530d4a232f0399b315
