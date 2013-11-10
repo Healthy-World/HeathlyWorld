@@ -168,11 +168,6 @@ module.config(['$routeProvider', function($routeProvider) {
         	controller: 'ResultsCtrl',
             templateUrl: "/partials/results.html"
         })
-        .when("/user", {
-        	controller: 'ResultsCtrl',
-            templateUrl: "/partials/user.html"
-        })
-
 		.otherwise({redirectTo: "/home"});
 }]);
 
