@@ -18,7 +18,7 @@
         "reviews": [
             {
                 "name": "",
-                "rating": 2,
+                "rating": 2.5,
                 "comments": "Dr. Lewis is good, but the person whop answers the phone and who you depend on to get an appointment, keep track of information, etc, is terrible. Her command of the english language isn't great, and results in a LOT of errors.",
                 "attributes": {
                     "staff": 1,
@@ -56,6 +56,39 @@
                     "helpful": 5,
                     "knowledge": 5
                 }
+            },
+            {
+                "name": "",
+                "rating": 4.75,
+                "comments": "",
+                "attributes": {
+                    "staff": 5,
+                    "punctual": 5,
+                    "helpful": 5,
+                    "knowledge": 4
+                }
+            },
+            {
+                "name": "",
+                "rating": 4.75,
+                "comments": "very caring and attentive",
+                "attributes": {
+                    "staff": 4,
+                    "punctual": 5,
+                    "helpful": 5,
+                    "knowledge": 5
+                }
+            },
+            {
+                "name": "",
+                "rating": 4.75,
+                "comments": "",
+                "attributes": {
+                    "staff": 4,
+                    "punctual": 5,
+                    "helpful": 5,
+                    "knowledge": 3
+                }
             }
         ]
     },
@@ -88,7 +121,7 @@
         "reviews": [
             {
                 "name": "",
-                "rating": 3.6,
+                "rating": 4.5,
                 "comments": "Wonderful doctor: respectful, skillful, thorough, takes time, cares. ",
                 "attributes": {
                     "staff": 4,
