@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Dr. Michael Lewis BSc, MD, CCFP",
+        "gender": "M",
+        "image": "http://stemmedcancer.com/wp-content/uploads/2011/10/Michael_Lewis-e1319515460190.jpg",
+        "availability" : {
+            "Monday": "9am - 5pm",
+            "Tuesday": "9am - 12pm",
+            "Friday": "9am - 12pm"
+        },
+        "phone": "416-486-1956",
+        "address": {
+            "street": "200 St. Clair Ave. West Suite 110",
+            "city": "Toronto",
+            "prov": "ON",
+            "postal": "M4V 1R1"
+        },
+        "reviews": [
+            {
+                "name": "",
+                "rating": 2,
+                "comments": "Dr. Lewis is good, but the person whop answers the phone and who you depend on to get an appointment, keep track of information, etc, is terrible. Her command of the english language isn't great, and results in a LOT of errors.",
+                "attributes": {
+                    "staff": 1,
+                    "punctual": 2,
+                    "helpful": 3,
+                    "knowledge": 4
+                }
+            }
+        ]
+    }
+]
